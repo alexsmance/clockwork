@@ -23,7 +23,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(51);
   translate(centerX, centerY);
   rotate(-90);
 
@@ -60,5 +60,5 @@ window.addEventListener('resize', () => {
   windowHeight = window.innerHeight;
   centerX = windowWidth / 2;
   centerY = windowHeight / 2;
-  setup()
+  setup();
 });

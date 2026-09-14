@@ -1,0 +1,62 @@
+:root {
+  --text-color: rgb(94, 205, 50);  
+}
+
+body.terminal {
+  background: #333333;
+  color: var(--text-color);
+  font-family: "Cascadia", Courier, monospace;
+  padding: 1rem;
+}
+
+.terminal .prompt {
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+table, tbody td {
+  border: 1px solid var(--text-color);
+}
+
+table tbody td:hover {
+  
+}
+
+ul {
+  list-style-type: ">> ";
+  list-style-position: inside;
+}
+
+fieldset {
+  border: 1px solid var(--text-color);
+  padding: 1rem;
+}
+
+input {
+  background: black;
+  border-radius: 0;
+  color: var(--text-color);
+  outline: black;
+}
+
+form input {
+  background: black;  
+  outline: var(--text-color);
+  border-bottom:1px solid var(--text-color);
+  color: var(--text-color);
+  border-radius: 0;
+  padding: 0 0 .5rem 0;
+}
+
+button {
+  padding: 1rem;
+  color: var(--text-color);
+  border: 1px solid var(--text-color);
+  border-radius: 0;
+  font-weight: 500;
+}
+
+button:hover {
+  background: var(--text-color);
+  color: black;
+}
